@@ -1,3 +1,4 @@
 Nome do recurso,Zona,Team,Cost Center,Country
 sua-vm-teste-gcp,us-central1-a,Infra,TI 101,Brasil
 vm-ficticia-para-forçar-erro,us-east1-b,Dados,Finanças,EUA
+instance-20260715-114244,us-central1-a,time1,custo1,Brasil

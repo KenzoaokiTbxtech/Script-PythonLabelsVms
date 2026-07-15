@@ -57,7 +57,7 @@ def executar_tagueamento_vms():
         ]
 
         try:
-            resultado = subprocess.run(comando_gcloud, capture_output=True, text=True, check=True)
+            resultado = subprocess.run(comando_gcloud, capture_output=True, text=True, check=True, shell=True)
             
             print(f"   ✅ Sucesso ao taguear a VM {nome_vm}!")
             sucessos.append(f"VM: {nome_vm} | Zona: {zona} -> Labels aplicadas.")
